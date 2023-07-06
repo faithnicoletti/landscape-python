@@ -6,6 +6,9 @@ tools = {
     "scissors": {
         "earnings": 5,
         "purchase_fee": 5
+    }, 
+    "lawnmower": {
+        "purchase_fee": 25
     }
 }
 
