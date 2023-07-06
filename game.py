@@ -16,6 +16,7 @@ tools = {
         "purchase_fee": 250 
     }, 
     "team of starving students": {
+        "earnings": 250,
         "purchase_fee": 500
     }
 }
