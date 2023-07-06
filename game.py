@@ -25,7 +25,7 @@ earnings = 0
 purchased_tools = set()
 
 while True:
-    choice = input("Choose to cut grass or purchase a tool (type 'quit' to exit): ")
+    choice = input("Choose to 'cut grass' or 'purchase' a tool! (type 'quit' to exit): ")
 
     if choice == "quit":
         print("Thanks for playing!")
