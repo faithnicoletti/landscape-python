@@ -68,3 +68,7 @@ while True:
 
     else:
         print("Invalid choice.")
+
+    if "team of starving students" in purchased_tools and earnings >= 1000:
+        print("You have won the game!!!")
+        break
