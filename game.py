@@ -7,8 +7,12 @@ tools = {
         "earnings": 5,
         "purchase_fee": 5
     }, 
-    "lawnmower": {
+    "push lawnmower": {
+        "earnings": 50,
         "purchase_fee": 25
+    }, 
+    "battery-powered lawnmower": {
+        "purchase_fee": 250 
     }
 }
 
@@ -31,8 +35,9 @@ while True:
                 print("Total earnings: $" + str(earnings))
             else:
                 print(f"You need ${tools[choice]['purchase_fee']} to purchase {choice}.")
-                continue
-        
+
+    if choice in tools:
+
         earnings += tools[choice]["earnings"]
         print(f"You used {choice} to cut grass and earned ${tools[choice]['earnings']}.")
         print("Total earnings: $" + str(earnings))
