@@ -12,6 +12,7 @@ tools = {
         "purchase_fee": 25
     }, 
     "battery-powered lawnmower": {
+        "earnings": 100,
         "purchase_fee": 250 
     }
 }
