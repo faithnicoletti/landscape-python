@@ -3,7 +3,7 @@ tools = {
         "earnings": 1,
         "purchase_fee": 0
     },
-    "rusty scissors": {
+    "scissors": {
         "earnings": 5,
         "purchase_fee": 5
     }
@@ -34,5 +34,4 @@ while True:
         print(f"You used {choice} to cut grass and earned ${tools[choice]['earnings']}.")
         print("Total earnings: $" + str(earnings))
     else:
-        print("Not a valid choice.")
-
+        print("Not valid.")
